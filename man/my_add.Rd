@@ -12,7 +12,7 @@ my_add(x, y = 10)
 \item{y}{A number or NA; default is 10}
 }
 \value{
-sum of x and y
+return NA if \code{x} or \code{y} is \code{NA}; otherwise, return sum of \code{x} and \code{y}
 }
 \description{
 Add values
